@@ -79,7 +79,7 @@ function calcTotal(){
      document.form.txtTotal.value=strTotal;
 }
 </script>
-<p align="center">Click Button to change Color Background!</p>
+<CENTER><p align="center"><b>Click Button to change Color Background!</b></p>
 <form name="frmColor" action="javascript:void(0);">
 <input type="submit" value="White" name="bW"
        onClick="selectColor('White')">
@@ -89,19 +89,16 @@ function calcTotal(){
        onClick="selectColor('Fucshia')">
 <input type="submit" value="Green" name="bG"
        onClick="selectColor('Green')">
-<p align="center">
 <input type="submit" value="Purple" name="bP"
        onClick="selectColor('Purple')">
-<p align="center">
 <input type="submit" value="Silver" name="bS"
        onClick="selectColor('Silver')">
-<p align="center">
 <input type="submit" value="Red" name="bR"
-       onClick="selectColor('Red')">
-<p align="center">    
-</form>
+       onClick="selectColor('Red')">   
+    </form></CENTER>
 <script language="javascript">
 function selectColor(selectColor){
      document.bgColor=selectColor;
+
 }
 </script>
